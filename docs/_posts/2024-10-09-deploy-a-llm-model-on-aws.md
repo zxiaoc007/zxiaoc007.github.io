@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deploy a LLM model on AWS"
-date: 2024-10-06 20:57:00 -0000
+date: 2024-10-09 20:57:00 -0000
 categories: LLM, Deployment, Cloud
 ---
 
@@ -15,15 +15,11 @@ The application website is https://bit.ly/Artificialingredients
 
 A quick demo of the application (TBA)
 
-{% video /github-blog/zxiaoc007.github.io/docs/_site/assets/images/demo.mp4 %}
-
-![Image](/github-blog/zxiaoc007.github.io/docs/_site/assets/images/Label.png)
-
 ## 1. System design of the application
 
 The application contains both front-end and back-end. Let's take a look of the overall view of the system design of the whole application.
 
-![Image](/github-blog/zxiaoc007.github.io/docs/_site/assets/images/LLM_system_design.png)
+![Image](/assets/images/diagram.png)
 
 When user uploads an image to the application, it first arrives at the UI and does some pre-processing to the image, and then sends to the end-back application, which is hosted on AWS Cloud.
 
