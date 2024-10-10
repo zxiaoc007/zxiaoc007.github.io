@@ -19,7 +19,7 @@ A quick demo of the application (TBA)
 
 The application contains both front-end and back-end. Let's take a look of the overall view of the system design of the whole application.
 
-![Image](/assets/images/diagram.png)
+![Image](/images/diagram.png)
 
 When user uploads an image to the application, it first arrives at the UI and does some pre-processing to the image, and then sends to the end-back application, which is hosted on AWS Cloud.
 
@@ -70,7 +70,7 @@ Another topic worth digging is the price of the model:
 https://aws.amazon.com/bedrock/pricing/
 
 The LLM model that's being used in this application is meta.llama3-8b-instruct-v1:0
-![Image](/github-blog/zxiaoc007.github.io/docs/_site/assets/images/LLama.png)
+![Image](/images/llama.png)
 
 The prompt that's being sent to LLM is:
 
@@ -95,8 +95,8 @@ Lastly, the back-end will return a LLM reply with an image having text-detect bo
 
 Example:
 
-![Image](/github-blog/zxiaoc007.github.io/docs/_site/assets/images/return_example.jpeg)
-![Image](/github-blog/zxiaoc007.github.io/docs/_site/assets/images/reply.jpeg)
+![Image](/images/return.jpeg)
+![Image](/images/example.jpeg)
 
 Feel free to try out this application and give us any feedback!
 
